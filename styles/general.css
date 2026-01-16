@@ -1,0 +1,12 @@
+body{
+    font-family:Arial ;
+    padding-top : 60px;
+
+}
+
+.limit-text-to-2-lines{
+    display : -webkit-box;
+    -webkit-box-orient : vertical;
+    -webkit-line-clamp: 2;
+    overflow : hidden;
+}

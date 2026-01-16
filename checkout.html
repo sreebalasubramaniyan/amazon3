@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>checkout</title>
+    <link rel="stylesheet" href="styles/general.css" class="stylesheet">
+    <link rel="stylesheet" href="styles/checkout/checkout-header.css" class="stylesheet">
+    <link rel="stylesheet" href="styles/checkout/checkout.css" class="stylesheet">
+</head>
+<body>
+    <header class="checkout-header">
+        <div class="header-content">            
+            <div class="left-part">
+                <a href="amazon.html"><img  src="images/amazon-logo.png" alt="" class="logo1"></a>
+                <a href="amazon.html"><img  src="images/amazon-mobile-logo.png" alt="" class="logo2"></a>
+            </div>
+    
+            <div class="middle-part">
+                <div class="checkout-text">
+                    Checkout (<a href="amazon.html">3 items</a>)
+                </div>
+            </div>
+    
+            <div class="right-part">
+                <img src="images/icons/checkout-lock-icon.png" alt="">
+            </div>
+        </div>
+    </header>
+    
+    <div class="main">
+        <div class="page-title"><div>Review your order</div></div>
+        <div class="checkout-grid">
+            <div class="order-summary">
+            </div>
+
+            <div class="payment-summary">
+            </div>         
+        </div>
+    </div>
+    <script src="https://unpkg.com/dayjs@1.11.10/dayjs.min.js"></script>
+    <script type="module"src="scripts/checkout.js"></script>
+    <script src="scripts/delivery.js"></script>
+
+</body>
+</html>

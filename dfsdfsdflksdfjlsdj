@@ -1,0 +1,77 @@
+[33mcommit 7c9aa480c50202cd89196b2afd62bf2b6dcac6da[m[33m ([m[1;36mHEAD[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m
+Author: sreebalasubramaniyan <sreebalasubramaniyan682@gmail.com>
+Date:   Thu Jan 15 13:44:35 2026 +0530
+
+    delete function works in both cart and innerHTML and learnt about BUBBLE UP(refere)
+
+[33mcommit 4b7d4b8f68ca66ee2f7737a44cd763574d7f08ef[m
+Author: sreebalasubramaniyan <sreebalasubramaniyan682@gmail.com>
+Date:   Thu Jan 15 12:48:54 2026 +0530
+
+    delete happens when click the button only in the cart
+
+[33mcommit d6a05f449c980da15b62d054f8a883d60c4aff97[m
+Author: sreebalasubramaniyan <sreebalasubramaniyan682@gmail.com>
+Date:   Thu Jan 15 11:56:10 2026 +0530
+
+    Displayed the all Cart items by js and works even when the cart is empty
+
+[33mcommit dd92098b81cb1e276a4857f6d92516053cb460f8[m
+Author: sreebalasubramaniyan <sreebalasubramaniyan682@gmail.com>
+Date:   Thu Jan 15 09:17:39 2026 +0530
+
+    worked on chekout page made responsible for mobile phone
+
+[33mcommit d8e46b6175946fad9d5225abf88585d19bc34eaf[m
+Author: sreebalasubramaniyan <sreebalasubramaniyan682@gmail.com>
+Date:   Wed Jan 14 23:49:27 2026 +0530
+
+    the entire check page has been created after long sitting litterly that grid-row and grid-column was annoying, but finnally completed tomorow script
+
+[33mcommit d34e597e4abdcb6c52fe9f8f784d16ca7c8c12cf[m
+Author: sreebalasubramaniyan <sreebalasubramaniyan682@gmail.com>
+Date:   Wed Jan 14 17:51:40 2026 +0530
+
+    checkout header has been created
+
+[33mcommit 661ff1570053d5d789e9380a56611e74ef080e3d[m
+Author: sreebalasubramaniyan <sreebalasubramaniyan682@gmail.com>
+Date:   Tue Jan 13 16:18:15 2026 +0530
+
+    search functionality has been developed and working finely
+
+[33mcommit 2d9b9964dc61ace2c22b71cb3652b3bd26d97f2e[m
+Author: sreebalasubramaniyan <sreebalasubramaniyan682@gmail.com>
+Date:   Tue Jan 13 14:05:23 2026 +0530
+
+    select the quantity from the select element and created the showing added element
+
+[33mcommit 84cfe4667a03e1f5863f0783524f23ca80ab0e00[m
+Author: sreebalasubramaniyan <sreebalasubramaniyan682@gmail.com>
+Date:   Tue Jan 13 13:07:35 2026 +0530
+
+    worked on header part and now  it's working flawlessly
+
+[33mcommit 7a75f02875412c9c52c0e53681eb3cc5747c3ec2[m
+Author: sreebalasubramaniyan <sreebalasubramaniyan682@gmail.com>
+Date:   Mon Jan 12 19:20:16 2026 +0530
+
+    learnt about module, import and export and about name conflict and changed into module
+
+[33mcommit 5791a97c0e446e4e8477c6e3cbfb8a5df044dc53[m
+Author: sreebalasubramaniyan <sreebalasubramaniyan682@gmail.com>
+Date:   Mon Jan 12 11:06:02 2026 +0530
+
+    product-object has been creted and continer created by javascript instead of direct html
+
+[33mcommit 9d03020aa04822dc7be0911a7e6b549ca96f4ecf[m
+Author: sreebalasubramaniyan <sreebalasubramaniyan682@gmail.com>
+Date:   Sun Jan 11 22:35:08 2026 +0530
+
+    home-page has been completed(2 rows have  to be added)
+
+[33mcommit 4e0211a79c84677eeaadc3d852b7155e57b24453[m
+Author: sreebalasubramaniyan <sreebalasubramaniyan682@gmail.com>
+Date:   Sun Jan 11 17:24:13 2026 +0530
+
+    repo created and added and header has been created

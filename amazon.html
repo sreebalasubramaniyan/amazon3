@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon</title>
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/amazon-home-page.css">
+    <link rel="stylesheet" href="styles/general.css">
+</head>
+<body>
+    <header class="header-part">
+        <div class="logo-part">
+            <a class="logo-link" href="amazon.html">
+                <img class="logo-image"src="images/amazon-logo-white.png">
+                <img class="amazon-mobile-logo" src="images/amazon-mobile-logo-white.png">
+            </a>
+        </div>
+        <div class="search-part">
+            <input class="input-box" type="text" placeholder="Search">
+            <button class="search-button">
+                <img class="search-button-image"src="images/icons/search-icon.png">
+            </button>
+        </div>
+        <div class="right-part">
+            <div class="addto-cart-part">
+                <a class="return-link">
+                    <span class="return-text">Return</span>
+                    <span class="order-text">&Orders</span>
+                </a>
+                <a class="cart-link" href="checkout.html">
+                    <img class="cart-image"src="images/icons/cart-icon.png" alt="">
+                    <div class="cart-text">Cart</div>
+                    <div class="cart-quantity">0</div>
+                </a>
+            </div>
+            <img class="hamburger" src="images/icons/hamburger-menu.png">
+        </div>
+    </header>
+    
+    <main>
+        <div class="grid"></div>
+    </main>
+    <!--module this is a entry point for all other js files-->
+    <script type="module" src="scripts/amazon.js">
+    </script>
+    
+    
+</body>
+</html>

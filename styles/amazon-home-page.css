@@ -1,0 +1,140 @@
+.grid{
+    display : grid;
+    width : 100%;
+    height : 100%;
+    grid-template-columns: repeat(7,1fr);
+
+}
+/*responsive based on the device size*/
+@media(max-width:2000px){
+    .grid{
+        grid-template-columns: repeat(6,1fr);
+    }
+}
+@media (max-width: 1600px) {
+  .grid {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
+
+@media (max-width: 1300px) {
+  .grid {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+@media (max-width: 1000px) {
+  .grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (max-width: 800px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 575px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 450px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.container{
+    
+    display : flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    padding : 25px 15px;
+    border-right: 1px solid rgb(231, 231, 231);
+    border-bottom: 1px solid rgb(231, 231, 231);
+    
+}
+.image-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height : 180px;
+    margin-bottom: 20px;
+}
+.product-image{
+    max-height: 100%;
+    max-width : 100%;
+}
+.details-section{
+    height: 38px;
+    margin-bottom: 5px;
+}
+.details-section p{
+    margin : 0;
+}
+.rating-section{
+    display : flex;
+    justify-content: start;
+    align-items: center;
+}
+.rating-image{
+    width : 55%;
+}
+.rating-number{
+    font-size : 15px;
+    margin-left : 8px;
+    margin-top : 4px;
+    color : rgb(1, 124, 182)
+}
+.price{
+    font-size: 15px;
+    font-weight: 700;
+    margin : 8px 0px;
+}
+.quantity select{
+    padding :5px;
+    border-radius : 5px;
+    font-size: 16px;
+    font-weight: 500;
+    box-shadow: 0 2px 5px rgba(213, 217, 217, 0.5);
+    outline-color:  rgb(255, 216, 20);
+    cursor : pointer;
+    background-color: rgb(240, 240, 240);
+}
+.added-showing-part{
+  width : 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  font-size: 15px;
+  color : green;
+}
+.added-showing-part img{
+  width : 20px;
+  margin-right: 5px;
+  margin-top: -1px;
+}
+.addto-cart-section{
+    width : 100%;
+}
+.addto-cart-button{
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    width : 101%;
+    font-size : 13px;
+    padding : 8px 0px;
+    border-radius : 50px;
+    background-color: rgb(255, 216, 20);
+    border : none;
+    transition : all 0.5ms linear;
+}
+.addto-cart-button:hover{
+    background-color: rgb(245, 204, 3);
+        
+}
